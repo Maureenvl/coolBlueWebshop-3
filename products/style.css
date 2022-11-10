@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navBar {
+  height: 52px;
+}
+
+#cartIcon {
+  margin: -15px 5px;
+  width: 50px;
+  float: right;
+}
+
+#topBar {
+  background-color: #0090e3;
+  width: 100%;
+  height: 57px;
+}
+
+#searchbar {
+  width: 20px;
+  height: 20px;
+}
+
+#coolBlue {
+  width: 92px;
+  margin-left: 20px;
+  margin-top: -58px;
+}
+
+#search {
+  border-radius: 3px;
+  margin: 5px 400px;
+  border: 0px;
+  height: 42px;
+  width: 500px;
+  border: none;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+#searchIcon {
+  margin: 860px;
+  margin-top: -43px;
+}
+
+#scrollBar {
+  padding: 40px 0px;
+  width: 740px;
+}
+
+.button {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50px;
+}
+
+#productImg {
+  margin-top: 150px;
+  margin-left: 140px;
+  width: 470px;
+}
+
+.help {
+  margin-left: -500px;
+}
+
+.selected {
+  color: #0090e3;
+}
+
+.sizeButton {
+  border-color: #00aa66;
+  border-style: solid;
+  box-shadow: none;
+  border-color: rgb(221, 221, 221);
+  background-color: transparent;
+  width: 60px;
+  height: 30px;
+}
+
+#tvInstall input {
+  margin-left: 4px;
+  float: left;
+}
+
+#tvInstall {
+  background-color: transparent;
+  height: 60px;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.left {
+  margin-top: -2px;
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+#productLeft img {
+  padding-top: 20px;
+}
+
+#productLeft button {
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.normal {
+  font-weight: 400;
+  margin-left: 23px;
+}
+
+#productLeft {
+  margin-right: 140px;
+  margin-top: -530px;
+  float: right;
+  height: 100%;
+  width: 400px;
+}
+
+#shippingLogo {
+  margin-top: -13px;
+  float: left;
+  width: 23px;
+}
+
+#package {
+  float: left;
+  width: 23px;
+}
+
+#prijs {
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+#first{
+  margin-top: -40px;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+#product p {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(54, 92, 166);
+}
+
+#product {
+  margin: 20px;
+  width: 820px;
+  height: 100%;
+}
+
+.vinkje{
+  margin-top: 0;
+  width: 20px;
+}
+
+.inline{
+  margin-left: 20px;
+  margin-top: -23px;
+}
+
+.orange{
+  font-weight: 600;
+  color: rgb(255, 95, 0);
+}
+
+.lighterColor {
+  margin: 0;
+  color: #999999;
+}
+
+#whiteButton {
+  outline: none;
+  border: rgb(221, 221, 211) solid;
+  background: white;
+  box-shadow: rgb(221, 221, 221) 0px -2px 0px 0px inset;
+  float: right;
+  width: 100%;
+  height: 40px;
+}
+
+#whiteButton:hover {
+  box-shadow: rgb(188, 188, 188) 0px -2px 0px 0px inset;
+  border: rgb(188, 188, 188) solid;
+}
+
+#buyButton {
+  padding-top: 5px;
+}
+
+.cardButton {
+  outline: none;
+  border: none;
+  background: #00b900;
+  box-shadow: rgb(0, 153, 0) 0px -2px 0px 0px inset;
+  float: right;
+  width: 100%;
+  height: 40px;
+}
+
+.cardButton:hover {
+  background-color: #009600;
+}
+
+#footer {
+  margin-top: 500px;
+  width: 100%;
+  height: 150px;
+  background: #0090e3;
+}
+
+#footer a {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+#homeIcon {
+  float: left;
+  width: 30px;
+}
+
+#infoIcon {
+  float: left;
+  width: 30px;
+}
+
+#contactIcon {
+  float: left;
+  width: 30px;
+}
+
+#payPal {
+  width: 50px;
+  margin-left: 43%;
+}
+
+#iDeal {
+  width: 25px;
+}
+
+#masterCard {
+  width: 40px;
+}
+
+#visa {
+  width: 55px;
+}
+
+#postNl {
+  width: 30px;
+}
+
+#copyRight {
+  text-align: center;
+}
+
+.row {
+  height: 100px;
+  width: 800px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  padding: 50px;
+  position: relative;
+  width: 750px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  margin-left: 170px;
+  display: none;
+}
+
+.mySlides:first-child {
+  display: block;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background: url(img/tiger.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #cacaca;
+  -webkit-box-shadow: 10px 10px 5px #cacaca;
+  box-shadow: 2px 2px 2px #cacaca;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  height: 100px;
+  float: left;
+  width: 15.54%;
+  border: 2px #dddddd solid;
+  margin-right: 5px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.tv1 {
+  margin: 15px 0px;
+}
+
+.tv2 {
+  margin: 15px 0px;
+}
+
+.tv3 {
+  margin: 0px 6px;
+}
+
+.tv4 {
+  margin: 0px 40%;
+}
+
+.tv5 {
+  margin: 0px 30%;
+}
+
+.tv6 {
+  margin: 0px 6px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*Eliminates padding, centers the thumbnail */
+
+#product{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styles the thumbnail */
+
+a.lightbox img {
+  height: 100%;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 0%;
+  max-width: 0%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.3);
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+  display: block;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+  overflow: scroll;
+}
+
+.lightbox-target:target img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+  top: 0;
+}

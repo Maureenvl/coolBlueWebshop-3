@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+a:link { text-decoration: none; }
+
+.navBar{
+    height: 52px;
+}
+
+#cartIcon{
+    margin: -15px 5px;
+    width: 50px;
+    float: right;
+}
+
+#topBar{
+    background-color: #0090E3;
+    width: 100%;
+    height: 57px;
+
+}
+
+#searchbar{
+    width: 20px;
+    height: 20px;
+}
+
+#coolBlue{
+    width: 92px;
+    margin-left: 20px; 
+    margin-top: -58px;
+}
+
+#search{
+    border-radius: 3px;
+    margin: 5px 400px;
+    border: 0px;
+    height: 42px;
+    width: 500px;
+    border: none;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+#searchIcon{
+    margin: 860px;
+    margin-top: -43px;
+}
+
+.filters{
+
+    width: 250px;
+    height: 800px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#prizeFilter{
+    padding: 25px 0px;
+    width: 250px;
+    height: 10%;
+}
+
+#prize{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#submit{
+    background: #40ACEA;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+}
+
+#resFilter{
+    width: 250px;
+    height: 10%;
+}
+
+#sizeFilter{
+    width: 250px;
+    height: 12%;
+    padding: 25px 0px;
+}
+
+#size{
+    font-weight: 900;
+    font-size: 16px;
+}
+
+#res{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#resFilter a{
+    color: black;
+}
+
+#geluidFilter{
+    padding: 25px 0px;
+    width: 250px;
+    height: 8%;
+}
+
+#hzFilter{
+    padding: 25px 0px;
+    width: 250px;
+    height: 4%;
+}
+
+
+#pannelFilter{
+    width: 250px;
+    height: 8%;
+}
+
+.product li{
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+.prijs{
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-weight: 900;
+}
+
+.cardButton{
+    outline: none;
+    border: none;
+    background: #00B900;
+    box-shadow: rgb(0, 153, 0) 0px -2px 0px 0px inset;
+    float: right;
+    width: 110px;
+    height: 40px;
+}
+
+.cardButton:hover {background-color: #009600}
+
+.productColor{
+    padding-left: 7px;
+    color: #0090E3;
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.delivery{
+    color: #00854B;
+}
+
+.tv{
+    width: 100%;
+}
+
+.product-list {
+    flex: 0 0 calc(100vw - 200px - 2rem);
+    padding: 4px;
+    padding-top: 30px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 30% 30% 30%;
+  }
+.product{
+    height: 460px;
+    width: 330px;
+}
+
+#footer{
+    width: 100%;
+    height: 150px;
+    background: #0090E3;
+}
+
+#footer a{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+#homeIcon{
+    float: left;
+    width: 30px;
+}
+
+#infoIcon{
+    float: left;
+    width: 30px;
+}
+
+#contactIcon{
+    float: left;
+    width: 30px;
+}
+
+#payPal{
+    width: 50px;
+    margin-left: 43%;
+}
+
+#iDeal{
+    width: 25px;
+}
+
+#masterCard{
+    width: 40px;
+}
+
+#visa{
+    width: 55px;
+}
+
+#postNl{
+    width: 30px;
+}
+
+#copyRight{
+    text-align: center;
+}
+  
