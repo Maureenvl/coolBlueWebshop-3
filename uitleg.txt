@@ -1,0 +1,101 @@
+
+Doe je met ! of html:5 niet zo heel moeilijk dus, zorgt ervoor dat alles goedstaat en je kan 
+beginnen, bevat je titel en link naar je stylesheet/Javascrypt
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoolBlue televisie's</title>
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+
+
+zorgt ervoor dat Javascrypt het p element goed oppakt,
+en zorgt ervoor dat de id tag makkelijker aangepast kan worden in de stylesheet
+<p id="geluid">Geluidskwaliteit</p>
+
+
+
+zorgt ervoor dat er geen box komt die je kan aanklikken, je hebt meerdere opties waar je uit kan kiezen
+deze kan je met die tag aanklikken
+<input type="checkbox" id="standaard">
+
+
+Het for attribuut geeft aan aan welk formulierelement een label is gebonden.
+<label for="100hz">100hz</label>
+
+
+
+Opent een formulierelement
+<form> </form>
+
+
+
+Zorgt dat het product aantal in de website word aangepast.
+zorgt dat de prijs word bijgewerkt.
+const productValue = urlParams.get('product');
+const prijsValue = urlParams.get('prijs');
+
+
+Cookies zijn gegevens die in kleine tekstbestanden op uw computer worden opgeslagen.
+Wanneer een webserver een webpagina naar een browser heeft gestuurd, wordt de verbinding verbroken en vergeet de server alles over de gebruiker.
+Cookies zijn uitgevonden om het probleem "hoe informatie over de gebruiker te onthouden" op te lossen:
+Wanneer een gebruiker een webpagina bezoekt, kan zijn/haar naam worden opgeslagen in een cookie.De volgende keer dat de gebruiker de pagina bezoekt, "onthoudt" de cookie zijn/haar naam.
+Cookies worden opgeslagen in naam-waardeparen
+
+unction getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+
+Zorgt ervoor dat je cookies kan verwijderen.
+function setCookie(cname,cvalue,exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+
+
+zorgt voor een slide show gallery.
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+  captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+
